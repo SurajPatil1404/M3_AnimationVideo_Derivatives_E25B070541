@@ -1,0 +1,8 @@
+# Intermediate video and audio files
+derivatives_video.mp4
+derivatives_audio.mp3
+derivatives_final_edited.mp4
+instructions.pdf
+.DS_Store
+__pycache__/
+*.pyc

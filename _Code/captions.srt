@@ -1,0 +1,240 @@
+1
+00:00:00,000 --> 00:00:02,700
+Understanding Derivatives and Rate of Change
+
+2
+00:00:02,750 --> 00:00:04,350
+Hello everyone!
+
+3
+00:00:04,400 --> 00:00:11,774
+Today, we are going to understand one of the most interesting concepts in calculus, which is called the derivative and rate of change.
+
+4
+00:00:11,824 --> 00:00:16,998
+Now, before we start with the actual mathematics, let's think about a simple real-life situation.
+
+5
+00:00:17,048 --> 00:00:23,323
+Imagine you are travelling in a car. You look at the speedometer, and it shows sixty kilometres per hour.
+
+6
+00:00:23,373 --> 00:00:27,173
+But have you ever wondered how we actually calculate speed?
+
+7
+00:00:27,223 --> 00:00:31,847
+Basically, speed tells us how quickly our position changes with respect to time.
+
+8
+00:00:31,897 --> 00:00:37,347
+And this idea of measuring how quickly something changes is exactly what derivatives are all about.
+
+9
+00:00:37,397 --> 00:00:40,096
+So, what exactly is a derivative?
+
+10
+00:00:40,146 --> 00:00:45,871
+In simple words, a derivative tells us how fast a quantity is changing at a particular moment.
+
+11
+00:00:45,921 --> 00:00:51,645
+For example, imagine a car travelling along a straight road. Its position keeps changing as time passes.
+
+12
+00:00:51,695 --> 00:00:58,245
+If we want to know how much distance the car covers in five seconds, we can calculate its average speed.
+
+13
+00:00:58,295 --> 00:01:03,194
+But what if we want to know its exact speed at one particular moment?
+
+14
+00:01:03,244 --> 00:01:05,669
+That's where derivatives become useful.
+
+15
+00:01:05,719 --> 00:01:09,244
+Now, let's understand this with a simple mathematical example.
+
+16
+00:01:09,294 --> 00:01:14,743
+Imagine a function where we take a number, multiply it by itself, and get the output.
+
+17
+00:01:14,793 --> 00:01:18,593
+For example, if we take two, the output is four.
+
+18
+00:01:18,643 --> 00:01:21,893
+If we take three, the output is nine.
+
+19
+00:01:21,943 --> 00:01:25,467
+And if we take four, the output is sixteen.
+
+20
+00:01:25,517 --> 00:01:29,867
+You might have noticed that the output increases as the input increases.
+
+21
+00:01:29,917 --> 00:01:33,717
+But the interesting question is, how quickly is it increasing?
+
+22
+00:01:33,767 --> 00:01:37,291
+This is exactly what a derivative helps us understand.
+
+23
+00:01:37,341 --> 00:01:39,766
+Let's take a closer look.
+
+24
+00:01:39,816 --> 00:01:43,066
+Suppose our function is x multiplied by x.
+
+25
+00:01:43,116 --> 00:01:46,915
+The derivative of this function is two multiplied by x.
+
+26
+00:01:46,965 --> 00:01:52,415
+Now, don't worry about memorising the formula right now. Let's understand what it actually tells us.
+
+27
+00:01:52,465 --> 00:01:57,364
+If we take the value of x as three, our derivative gives us six.
+
+28
+00:01:57,414 --> 00:02:02,864
+This means that at that particular point, the rate of change of our function is six.
+
+29
+00:02:02,914 --> 00:02:10,288
+So, a derivative doesn't simply tell us whether something is increasing or decreasing. It also tells us how quickly that change is happening.
+
+30
+00:02:10,338 --> 00:02:13,313
+Now, let's understand the same concept visually.
+
+31
+00:02:13,363 --> 00:02:16,613
+Imagine drawing a curved line on a graph.
+
+32
+00:02:16,663 --> 00:02:19,912
+At first, the curve might be increasing slowly.
+
+33
+00:02:19,962 --> 00:02:24,862
+Then, as we move further along the graph, it might start increasing more rapidly.
+
+34
+00:02:24,912 --> 00:02:32,561
+To understand the behaviour of the curve at a particular point, we draw a straight line that just touches the curve at that point.
+
+35
+00:02:32,611 --> 00:02:35,586
+This straight line is called a tangent.
+
+36
+00:02:35,636 --> 00:02:40,536
+And the slope of this tangent tells us the derivative at that particular point.
+
+37
+00:02:40,586 --> 00:02:42,735
+Now, here's something interesting.
+
+38
+00:02:42,785 --> 00:02:49,060
+If the tangent slopes upwards from left to right, the derivative is positive. This means the function is increasing.
+
+39
+00:02:49,110 --> 00:02:54,284
+If the tangent slopes downwards, the derivative is negative. This means the function is decreasing.
+
+40
+00:02:54,334 --> 00:02:58,409
+And if the tangent is completely horizontal, its slope is zero.
+
+41
+00:02:58,459 --> 00:03:02,259
+This usually happens at certain turning points of a curve.
+
+42
+00:03:02,309 --> 00:03:08,308
+So, by simply looking at the tangent, we can understand how a function behaves at a particular point.
+
+43
+00:03:08,358 --> 00:03:12,708
+Now, let's talk about where derivatives are actually used in real life.
+
+44
+00:03:12,758 --> 00:03:15,457
+One common application is in physics.
+
+45
+00:03:15,507 --> 00:03:22,332
+Whenever we study the motion of an object, derivatives help us calculate velocity from its position and acceleration from its velocity.
+
+46
+00:03:22,382 --> 00:03:29,206
+For example, engineers use these concepts to understand how quickly a vehicle is moving and how its speed changes over time.
+
+47
+00:03:29,256 --> 00:03:32,506
+Another important application is in business and economics.
+
+48
+00:03:32,556 --> 00:03:36,081
+Imagine a company producing different quantities of a product.
+
+49
+00:03:36,131 --> 00:03:41,305
+The company wants to understand how its cost changes when it produces one additional unit.
+
+50
+00:03:41,355 --> 00:03:45,430
+Derivatives help in studying this change and making better production decisions.
+
+51
+00:03:45,480 --> 00:03:49,279
+They are also used in artificial intelligence and machine learning.
+
+52
+00:03:49,329 --> 00:03:56,979
+Whenever a machine learning model tries to improve its performance, it uses mathematical techniques involving derivatives to adjust its internal parameters and reduce errors.
+
+53
+00:03:57,029 --> 00:04:03,028
+So, derivatives are not just theoretical mathematical concepts. They have practical applications in science, engineering, economics, and technology.
+
+54
+00:04:03,078 --> 00:04:06,328
+Now, let's quickly revise what we have learned.
+
+55
+00:04:06,378 --> 00:04:10,727
+First, a derivative measures the instantaneous rate of change of a function.
+
+56
+00:04:10,777 --> 00:04:16,227
+Second, the slope of the tangent at a particular point represents the derivative at that point.
+
+57
+00:04:16,277 --> 00:04:21,451
+And third, derivatives help us understand whether a function is increasing, decreasing, or remaining constant.
+
+58
+00:04:21,501 --> 00:04:31,626
+So, the next time you look at a moving car, a changing speedometer, or even a machine learning model improving its accuracy, remember that derivatives are playing an important role behind the scenes.
+
+59
+00:04:31,676 --> 00:04:35,750
+And that's the basic idea of derivatives and rate of change.
+
+60
+00:04:35,800 --> 00:04:37,950
+Thank you for listening!
+
